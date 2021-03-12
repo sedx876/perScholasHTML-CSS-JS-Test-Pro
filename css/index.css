@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body{
+  margin: 0;
+  font-family: 'Inconsolata', monospace;
+}
+
+/* NAV  */
+.brand-logo{
+  text-shadow: 0.063rem 0.063rem 0rem gray;
+  margin: 0.06rem;
+}
+
+.art{
+  height: 2rem;
+  margin: 1rem;
+}
+
+li{
+  text-shadow: 0.063rem 0.063rem 0rem gray;
+}
+/* END OF NAV */
+
+
+/* FORM CARD  */
+/* END OF FORM CARD  */
+
+
+
+/* ABOUT  */
+.card-action{
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 0.063rem 0.063rem 0rem gray;
+}
+
+.card-title{
+  text-align: center;
+}
+
+.card-content{
+  text-align: center;
+  font-size: 1.2rem;
+  text-shadow: 0.063rem 0.063rem 0rem gray;
+}
+/* END OF ABOUT  */
+
+
+
+
+
+
+
+
+/* FOOTER  */
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  text-align: center;
+}
+/* END OF FOOTER */
