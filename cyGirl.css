@@ -1,0 +1,17 @@
+
+
+:root{
+  --mainFont: 'Inconsolata', monospace;
+  --mainColor: #2751B9;
+  --blockColor: #F304F0;
+  --hoverColor: #E43141;
+  --fontColor: #FFB229;
+  --shadowColor: #03FFC0;
+  --textShadow: black;
+  --scHeader: url('./images/cyGirlHeader.png');
+  --btn1: url('./images/cyGirlMenuBtn.png');
+  --btn2: url('./images/cyGirlEnterBtn.png');
+  --btn3: url('./images/cyGirlSubmitBtn.png');
+  --scFooter: url('./images/cyGirlFooter.png');
+  --customCursor: url('./images/cyGirlCursor.gif');
+}
