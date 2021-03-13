@@ -81,6 +81,44 @@
     </div>
 
     <!-- END OF THEME TABLE  -->
+
+
+    <!-- SURVEY SECTION   -->
+    <div class="survey">
+      <h3 class='surveyTitle'>We are always looking to improve the Site. Please take a moment 
+        to complete our survey.
+      </h3>
+
+      <form>
+        <input id='inputs' type='text' name='name' placeholder='Name'/>
+        <br/><br/>
+        <input id='inputs' type='text' name='email' placeholder='Email'/>
+
+        <br/><br/>
+        <select id="Age">
+          <option value="Age">Age</option>
+          <option value="0">0-14</option>
+          <option value="15">15-24</option>
+          <option value="25">25-34</option>
+          <option value="35">35-44</option>
+          <option value="45">45-54</option>
+          <option value="55">55-64</option>
+        </select>
+        <h4 id='gender'>Gender: </h4>
+        <input id='radio' type="radio" name="male" value="Male">Male<br>
+        <input id='radio' type="radio" name="female" value="Female">Female<br>
+        <input id='radio' type="radio" name="prefer" value="Prefer">Prefer Not To Say<br>
+        <input id='radio' type="radio" name="reason" value="">I am... <input type="text" name="other_reason" />
+        <br/><br/>
+        <div class="textArea">
+          <textarea rows="10" cols="60">
+            What type of themes would you like to see?
+          </textarea>
+        </div>
+        <button class='surveySubmit' type='submit'>Submit</button>
+      </form>
+    </div>
+    <!-- END OF SURVEY SECTION  -->
   </div>
 
   <script type="text/javascript" src="./js/themes.js"></script>

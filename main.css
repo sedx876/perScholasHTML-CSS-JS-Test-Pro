@@ -139,7 +139,7 @@ body{
 
 /* THEME TABLE  */
 table, th, td {
-  border: 1px solid var(--fontColor);
+  border: 2px groove var(--fontColor);
   margin-left: auto;
   margin-right: auto;
 }
@@ -192,3 +192,72 @@ td{
   margin-bottom: 70%;
 }
 /* END OF THEME TABLE  */
+
+/* SURVEY  */
+
+.survey{
+  padding: 10px;
+  margin: 20px;
+  border: 2px groove var(--fontColor);
+}
+.surveyTitle{
+  text-align: center;
+  color: var(--fontColor)
+}
+
+form{
+  /* padding: 3px; */
+  /* text-align: center; */
+  /* box-sizing: border-box; */
+  /* display: inline; */
+  /* float: center; */
+  margin-left: 35%;
+  /* margin-right: 50%; */
+}
+
+#inputs{
+  /* padding: 3px; */
+  /* text-align: center; */
+  /* box-shadow: 0.4rem 0.4rem 0.2rem var(--shadowColor); */
+}
+
+form select{
+  width: 18%;
+  padding: 3px;
+  /* text-align: center; */
+  /* box-shadow: 0.4rem 0.4rem 0.2rem var(--shadowColor); */
+}
+
+#radio{
+  /* display: inline; */
+  /* text-align: left; */
+  /* margin: 2px; */
+  /* overflow: hidden; */
+  /* padding: 2px; */
+  /* float: left; */
+}
+
+#gender{
+  /* float: left; */
+  color: var(--fontColor);
+}
+
+textarea{
+  margin-left: auto;
+  margin-right: auto;
+  /* float: center; */
+}
+
+.surveySubmit{
+  background-color: var(--blockColor);
+  border: none;
+  color: var(--fontColor);
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  border-radius: 8px;
+}
+/* END OF SURVEY  */
