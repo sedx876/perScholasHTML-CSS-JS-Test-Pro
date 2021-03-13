@@ -173,6 +173,18 @@ td{
   text-align:center;
 }
 
+#rainbow-mode{
+  /* background-color: var(--cyGirlColor); */
+  height: 2rem;
+	width: 2rem;
+  /* padding: .3rem; */
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+  margin-left: 20%;
+  margin-right: 50%;
+  margin-bottom: 50%;
+  text-align:center;
+}
+
 #cyDemo{
   /* text-align:center; */
   /* margin-left: 60%;

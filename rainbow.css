@@ -1,0 +1,17 @@
+
+
+:root{
+  --mainFont: 'Inconsolata', monospace;
+  --mainColor: #62D905;
+  --blockColor: #2E9BD3;
+  --hoverColor: #E530D3;
+  --fontColor: #851c7a;
+  --shadowColor: #FF69A6;
+  --textShadow: black;
+  --scHeader: url('./images/rainbowHeader.png');
+  --btn1: url('./images/rainbowMenuBtn.png');
+  --btn2: url('./images/rainbowEnterBtn.png');
+  --btn3: url('./images/rainbowSubmitBtn.png');
+  --scFooter: url('./images/rainbowFooter.png');
+  --customCursor: url('./images/rainbowCursor.png');
+}

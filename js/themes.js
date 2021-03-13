@@ -28,8 +28,8 @@ function setTheme(mode){
 		document.getElementById('theme-style').href = 'cyGirl.css'
 	}
 
-	if(mode == 'iWantMyMTV'){
-		document.getElementById('theme-style').href = 'iWantMyMTV.css'
+	if(mode == 'rainbow'){
+		document.getElementById('theme-style').href = 'rainbow.css'
 	}
 
 	if(mode == 'brPastel'){
