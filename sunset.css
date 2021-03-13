@@ -13,6 +13,11 @@
   --btn2: url('./images/sunsetEnterBtn.png');
   --btn3: url('./images/sunsetSubmitBtn.png');
   --scFooter: url('./images/sunsetFooter.png');
-  --customCursor: url('./images/steamPunkCursor.png');
+  --customCursor: url('./images/sunsetCursor.png');
   --backgroundImage: url('./images/sunsetGradient.jpg');
+}
+
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -211,6 +211,18 @@ td{
   text-align:center;
 }
 
+#spartan-mode{
+  /* background-color: var(--cyGirlColor); */
+  height: 2rem;
+	width: 2rem;
+  /* padding: .3rem; */
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+  margin-left: 20%;
+  margin-right: 50%;
+  margin-bottom: 50%;
+  text-align:center;
+}
+
 #cyDemo{
   /* text-align:center; */
   /* margin-left: 60%;
@@ -238,6 +250,7 @@ form{
   /* display: inline; */
   /* float: center; */
   margin-left: 35%;
+  color: var(--fontColor);
   /* margin-right: 50%; */
 }
 
@@ -245,11 +258,13 @@ form{
   /* padding: 3px; */
   /* text-align: center; */
   /* box-shadow: 0.4rem 0.4rem 0.2rem var(--shadowColor); */
+  color: var(--fontColor);
 }
 
 form select{
   width: 18%;
   padding: 3px;
+  color: var(--fontColor);
   /* text-align: center; */
   /* box-shadow: 0.4rem 0.4rem 0.2rem var(--shadowColor); */
 }
@@ -261,6 +276,7 @@ form select{
   /* overflow: hidden; */
   /* padding: 2px; */
   /* float: left; */
+  color: var(--fontColor);
 }
 
 #gender{
@@ -272,6 +288,7 @@ textarea{
   margin-left: auto;
   margin-right: auto;
   /* float: center; */
+  color: var(--fontColor);
 }
 
 .surveySubmit{

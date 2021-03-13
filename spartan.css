@@ -1,0 +1,23 @@
+
+
+:root{
+  --mainFont: 'Inconsolata', monospace;
+  --mainColor: #62D905;
+  --blockColor: #01C48C;
+  --hoverColor: #892315;
+  --fontColor: #B1120E;
+  --shadowColor: #154F39;
+  --textShadow: black;
+  --scHeader: url('./images/spartanHeader.png');
+  --btn1: url('./images/spartanMenuBtn.png');
+  --btn2: url('./images/spartanEnterBtn.png');
+  --btn3: url('./images/spartanSubmitBtn.png');
+  --scFooter: url('./images/spartanFooter.png');
+  --customCursor: url('./images/spartanCursor.png');
+  --backgroundImage: url('./images/blackBg.jpg');
+}
+
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+}

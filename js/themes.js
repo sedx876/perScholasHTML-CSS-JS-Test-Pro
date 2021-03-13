@@ -40,8 +40,8 @@ function setTheme(mode){
 		document.getElementById('theme-style').href = 'sunset.css'
 	}
 
-  if(mode == 'mrAnderson'){
-		document.getElementById('theme-style').href = 'mrAnderson.css'
+  if(mode == 'spartan'){
+		document.getElementById('theme-style').href = 'spartan.css'
 	}
 
   if(mode == 'whimsyShire'){
