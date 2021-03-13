@@ -8,6 +8,7 @@
   --fontColor: #DCE775;
   --shadowColor: slategray;
   --textShadow: black;
+  --backgroundImage: url('../images/white.jpg');
   --customCursor: url('../images/mainCursor.png');
   --scHeader: url('../images/header.png');
   --btn1: url('../images/menuBtn.png');
@@ -23,6 +24,7 @@ body{
   font-family: var(--mainFont);
   background-color: var(--mainColor);
   cursor: var(--customCursor), auto;
+  background-image: var(--backgroundImage);
 }
 
 /* HEADER  */
@@ -174,6 +176,18 @@ td{
 }
 
 #rainbow-mode{
+  /* background-color: var(--cyGirlColor); */
+  height: 2rem;
+	width: 2rem;
+  /* padding: .3rem; */
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+  margin-left: 20%;
+  margin-right: 50%;
+  margin-bottom: 50%;
+  text-align:center;
+}
+
+#steampunk-mode{
   /* background-color: var(--cyGirlColor); */
   height: 2rem;
 	width: 2rem;

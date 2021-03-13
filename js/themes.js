@@ -32,8 +32,8 @@ function setTheme(mode){
 		document.getElementById('theme-style').href = 'rainbow.css'
 	}
 
-	if(mode == 'brPastel'){
-		document.getElementById('theme-style').href = 'brPastel.css'
+	if(mode == 'steampunk'){
+		document.getElementById('theme-style').href = 'steampunk.css'
 	}
 
 	if(mode == 'goEagles'){

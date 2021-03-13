@@ -1,0 +1,18 @@
+
+
+:root{
+  --mainFont: 'Inconsolata', monospace;
+  --mainColor: #62D905;
+  --blockColor: #7F5D42;
+  --hoverColor: #512C24;
+  --fontColor: #f37f5f;
+  --shadowColor: black;
+  --textShadow: black;
+  --scHeader: url('./images/steamPunkHeader.png');
+  --btn1: url('./images/steamPunkMenuBtn.png');
+  --btn2: url('./images/steamPunkEnterBtn.png');
+  --btn3: url('./images/steamPunkSubmitBtn.png');
+  --scFooter: url('./images/steamPunkFooter.png');
+  --customCursor: url('./images/steamPunkCursor.png');
+  --backgroundImage: url('./images/grunge2.jpg');
+}
