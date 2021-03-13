@@ -36,8 +36,8 @@ function setTheme(mode){
 		document.getElementById('theme-style').href = 'steampunk.css'
 	}
 
-	if(mode == 'goEagles'){
-		document.getElementById('theme-style').href = 'goEagles.css'
+	if(mode == 'sunset'){
+		document.getElementById('theme-style').href = 'sunset.css'
 	}
 
   if(mode == 'mrAnderson'){

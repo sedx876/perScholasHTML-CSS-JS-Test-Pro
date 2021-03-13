@@ -1,0 +1,18 @@
+
+
+:root{
+  --mainFont: 'Inconsolata', monospace;
+  --mainColor: #62D905;
+  --blockColor: #F90545;
+  --hoverColor: #FE5F41;
+  --fontColor: #03DB9C;
+  --shadowColor: black;
+  --textShadow: black;
+  --scHeader: url('./images/sunsetHeader.png');
+  --btn1: url('./images/sunsetMenuBtn.png');
+  --btn2: url('./images/sunsetEnterBtn.png');
+  --btn3: url('./images/sunsetSubmitBtn.png');
+  --scFooter: url('./images/sunsetFooter.png');
+  --customCursor: url('./images/steamPunkCursor.png');
+  --backgroundImage: url('./images/sunsetGradient.jpg');
+}
