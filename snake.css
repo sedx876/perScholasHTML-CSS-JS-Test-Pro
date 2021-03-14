@@ -1,0 +1,23 @@
+
+
+:root{
+  --mainFont: 'Inconsolata', monospace;
+  --mainColor: #62D905;
+  --blockColor: #D0E100;
+  --hoverColor: #5E7C10;
+  --fontColor: #000000;
+  --shadowColor: #90BD1C;
+  --textShadow: black;
+  --scHeader: url('./images/snakeHeader.png');
+  --btn1: url('./images/snakeMenuBtn.png');
+  --btn2: url('./images/snakeEnterBtn.png');
+  --btn3: url('./images/snakeSubmitBtn.png');
+  --scFooter: url('./images/snakeFooter.png');
+  --customCursor: url('./images/snakeCursor.png');
+  --backgroundImage: url('./images/snakeGradient.jpg');
+}
+
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+}

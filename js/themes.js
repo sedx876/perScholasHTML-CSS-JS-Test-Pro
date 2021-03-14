@@ -56,16 +56,16 @@ function setTheme(mode){
 		document.getElementById('theme-style').href = 'vintage.css'
 	}
 
-  if(mode == 'waves'){
-		document.getElementById('theme-style').href = 'waves.css'
+  if(mode == 'anarchy'){
+		document.getElementById('theme-style').href = 'anarchy.css'
 	}
 
-  if(mode == 'cherryLimeade'){
-		document.getElementById('theme-style').href = 'cherryLimeade.css'
+  if(mode == 'mask'){
+		document.getElementById('theme-style').href = 'mask.css'
 	}
 
-  if(mode == 'subdued'){
-		document.getElementById('theme-style').href = 'subdued.css'
+  if(mode == 'snake'){
+		document.getElementById('theme-style').href = 'snake.css'
 	}
 
   if(mode == 'coral'){

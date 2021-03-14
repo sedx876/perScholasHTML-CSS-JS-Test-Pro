@@ -1,0 +1,23 @@
+
+
+:root{
+  --mainFont: 'Inconsolata', monospace;
+  --mainColor: #62D905;
+  --blockColor: #B92F92;
+  --hoverColor: #F294D7;
+  --fontColor: #00A88F;
+  --shadowColor: #761A5C;
+  --textShadow: black;
+  --scHeader: url('./images/anarchyHeader.png');
+  --btn1: url('./images/anarchyMenuBtn.png');
+  --btn2: url('./images/anarchyEnterBtn.png');
+  --btn3: url('./images/anarchySubmitBtn.png');
+  --scFooter: url('./images/anarchyFooter.png');
+  --customCursor: url('./images/anarchyCursor.png');
+  --backgroundImage: url('./images/anarchyGradient.jpg');
+}
+
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+}

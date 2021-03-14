@@ -1,0 +1,23 @@
+
+
+:root{
+  --mainFont: 'Inconsolata', monospace;
+  --mainColor: #62D905;
+  --blockColor: #2673DD;
+  --hoverColor: #69D679;
+  --fontColor: #FF7200;
+  --shadowColor: #761A5C;
+  --textShadow: black;
+  --scHeader: url('./images/maskHeader.png');
+  --btn1: url('./images/maskMenuBtn.png');
+  --btn2: url('./images/maskEnterBtn.png');
+  --btn3: url('./images/maskSubmitBtn.png');
+  --scFooter: url('./images/maskFooter.png');
+  --customCursor: url('./images/maskCursor.png');
+  --backgroundImage: url('./images/maskGradient.jpg');
+}
+
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+}

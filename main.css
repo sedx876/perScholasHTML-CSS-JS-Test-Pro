@@ -15,7 +15,6 @@
   --btn2: url('../images/submitBtn.png');
   --btn3: url('../images/enterBtn.png');
   --scFooter: url('../images/scFooter.png');
-  --cyGirlColor: #F304F0;
 }
 
 
@@ -31,7 +30,6 @@ body{
 .header {
   overflow: hidden;
   background-color: var(--blockColor);
-  /* padding: 0.625rem 0.625rem; */
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   font-family: var(--mainFont);
 }
@@ -81,10 +79,7 @@ body{
 .scHeader{
   height: 9.375rem;
   width: 43.75rem;
-  /* margin-left: 50%;
-  margin-right: 50%; */
   align-items: center;
-  /* padding-right: 50%; */
   background-image: var(--scHeader);
   border: 0.188rem groove var(--fontColor);
   display: block;
@@ -141,14 +136,14 @@ body{
 
 /* THEME TABLE  */
 table, th, td {
-  border: 2px groove var(--fontColor);
+  border: 0.13rem groove var(--fontColor);
   margin-left: auto;
   margin-right: auto;
 }
 td{
   height: 12.5rem;
   width: 12.5rem;
-  /* box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor); */
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 h3{
@@ -158,10 +153,8 @@ h3{
 }
 
 #cyGirl-mode{
-  /* background-color: var(--cyGirlColor); */
   height: 2rem;
 	width: 2rem;
-  /* padding: .3rem; */
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   margin-left: 20%;
   margin-right: 50%;
@@ -170,10 +163,8 @@ h3{
 }
 
 #main-mode{
-  /* background-color: var(--cyGirlColor); */
   height: 2rem;
 	width: 2rem;
-  /* padding: .3rem; */
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   margin-left: 20%;
   margin-right: 50%;
@@ -182,10 +173,8 @@ h3{
 }
 
 #rainbow-mode{
-  /* background-color: var(--cyGirlColor); */
   height: 2rem;
 	width: 2rem;
-  /* padding: .3rem; */
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   margin-left: 20%;
   margin-right: 50%;
@@ -265,10 +254,45 @@ h3{
   text-align:center;
 }
 
-#cyDemo{
-  /* text-align:center; */
-  /* margin-left: 60%;
-  margin-right: 30%; */
+#anarchy-mode{
+  /* background-color: var(--cyGirlColor); */
+  height: 2rem;
+	width: 2rem;
+  /* padding: .3rem; */
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+  margin-left: 20%;
+  margin-right: 50%;
+  margin-bottom: 50%;
+  text-align:center;
+}
+
+#mask-mode{
+  /* background-color: var(--cyGirlColor); */
+  height: 2rem;
+	width: 2rem;
+  /* padding: .3rem; */
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+  margin-left: 20%;
+  margin-right: 50%;
+  margin-bottom: 50%;
+  text-align:center;
+}
+
+#snake-mode{
+  /* background-color: var(--cyGirlColor); */
+  height: 2rem;
+	width: 2rem;
+  /* padding: .3rem; */
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+  margin-left: 20%;
+  margin-right: 50%;
+  margin-bottom: 50%;
+  text-align:center;
+}
+
+#demo{
+  color: var(--fontColor);
+  /* background-color: var(--blockColor); */
   margin-bottom: 70%;
 }
 /* END OF THEME TABLE  */
