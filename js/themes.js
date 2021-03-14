@@ -44,8 +44,8 @@ function setTheme(mode){
 		document.getElementById('theme-style').href = 'spartan.css'
 	}
 
-  if(mode == 'whimsyShire'){
-		document.getElementById('theme-style').href = 'whimsyShire.css'
+  if(mode == 'bee'){
+		document.getElementById('theme-style').href = 'bee.css'
 	}
 
   if(mode == 'houseStark'){

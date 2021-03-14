@@ -1,0 +1,22 @@
+
+:root{
+  --mainFont: 'Inconsolata', monospace;
+  --mainColor: #62D905;
+  --blockColor: #848D30;
+  --hoverColor: #BDC25C;
+  --fontColor: #FDF83A;
+  --shadowColor: black;
+  --textShadow: black;
+  --scHeader: url('./images/beeHeader.png');
+  --btn1: url('./images/beeMenuBtn.png');
+  --btn2: url('./images/beeEnterBtn.png');
+  --btn3: url('./images/beeSubmitBtn.png');
+  --scFooter: url('./images/beeFooter.png');
+  --customCursor: url('./images/beeCursor.png');
+  --backgroundImage: url('./images/beeGradient.jpg');
+}
+
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
