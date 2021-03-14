@@ -1,0 +1,22 @@
+
+:root{
+  --mainFont: 'Inconsolata', monospace;
+  --mainColor: #62D905;
+  --blockColor: #000000;
+  --hoverColor: #BDC25C;
+  --fontColor: #67AF32;
+  --shadowColor: black;
+  --textShadow: black;
+  --scHeader: url('./images/bioHazardHeader.png');
+  --btn1: url('./images/bioHazardMenuBtn.png');
+  --btn2: url('./images/bioHazardEnterBtn.png');
+  --btn3: url('./images/bioHazardSubmitBtn.png');
+  --scFooter: url('./images/bioHazardFooter.png');
+  --customCursor: url('./images/bioHazardCursor.png');
+  --backgroundImage: url('./images/bioHazardGradient.jpg');
+}
+
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+}

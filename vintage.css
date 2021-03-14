@@ -1,0 +1,23 @@
+
+
+:root{
+  --mainFont: 'Inconsolata', monospace;
+  --mainColor: #62D905;
+  --blockColor: #DC6C82;
+  --hoverColor: #8CD6EC;
+  --fontColor: #266274;
+  --shadowColor: #B32742;
+  --textShadow: black;
+  --scHeader: url('./images/vintageHeader.png');
+  --btn1: url('./images/vintageMenuBtn.png');
+  --btn2: url('./images/vintageEnterBtn.png');
+  --btn3: url('./images/vintageSubmitBtn.png');
+  --scFooter: url('./images/vintageFooter.png');
+  --customCursor: url('./images/vintageCursor.png');
+  --backgroundImage: url('./images/vintageGradient.jpg');
+}
+
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+}

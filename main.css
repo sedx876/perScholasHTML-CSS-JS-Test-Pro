@@ -154,6 +154,7 @@ td{
 h3{
   text-align: center;
   color: var(--fontColor);
+  background-color: var(--blockColor)
 }
 
 #cyGirl-mode{
@@ -229,6 +230,30 @@ h3{
 }
 
 #bee-mode{
+  /* background-color: var(--cyGirlColor); */
+  height: 2rem;
+	width: 2rem;
+  /* padding: .3rem; */
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+  margin-left: 20%;
+  margin-right: 50%;
+  margin-bottom: 50%;
+  text-align:center;
+}
+
+#biohazard-mode{
+  /* background-color: var(--cyGirlColor); */
+  height: 2rem;
+	width: 2rem;
+  /* padding: .3rem; */
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+  margin-left: 20%;
+  margin-right: 50%;
+  margin-bottom: 50%;
+  text-align:center;
+}
+
+#vintage-mode{
   /* background-color: var(--cyGirlColor); */
   height: 2rem;
 	width: 2rem;

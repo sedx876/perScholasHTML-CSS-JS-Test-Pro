@@ -48,12 +48,12 @@ function setTheme(mode){
 		document.getElementById('theme-style').href = 'bee.css'
 	}
 
-  if(mode == 'houseStark'){
-		document.getElementById('theme-style').href = 'houseStark.css'
+  if(mode == 'biohazard'){
+		document.getElementById('theme-style').href = 'biohazard.css'
 	}
 
-  if(mode == 'goOrange'){
-		document.getElementById('theme-style').href = 'goOrange.css'
+  if(mode == 'vintage'){
+		document.getElementById('theme-style').href = 'vintage.css'
 	}
 
   if(mode == 'waves'){
