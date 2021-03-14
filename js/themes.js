@@ -68,37 +68,5 @@ function setTheme(mode){
 		document.getElementById('theme-style').href = 'snake.css'
 	}
 
-  if(mode == 'coral'){
-		document.getElementById('theme-style').href = 'coral.css'
-	}
-
-	if(mode == 'happy'){
-		document.getElementById('theme-style').href = 'happy.css'
-	}
-
-	if(mode == 'berry'){
-		document.getElementById('theme-style').href = 'berry.css'
-	}
-
-	if(mode == 'autumn'){
-		document.getElementById('theme-style').href = 'autumn.css'
-	}
-
-	if(mode == 'midnight'){
-		document.getElementById('theme-style').href = 'midnight.css'
-	}
-
-	if(mode == 'chocolateMint'){
-		document.getElementById('theme-style').href = 'chocolateMint.css'
-	}
-
-	if(mode == 'zombie'){
-		document.getElementById('theme-style').href = 'zombie.css'
-	}
-
-	if(mode == 'rainbow'){
-		document.getElementById('theme-style').href = 'rainbow.css'
-	}
-
 	localStorage.setItem('theme', mode)
 }

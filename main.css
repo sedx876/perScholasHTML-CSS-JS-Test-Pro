@@ -183,10 +183,8 @@ h3{
 }
 
 #steampunk-mode{
-  /* background-color: var(--cyGirlColor); */
   height: 2rem;
 	width: 2rem;
-  /* padding: .3rem; */
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   margin-left: 20%;
   margin-right: 50%;
@@ -195,10 +193,8 @@ h3{
 }
 
 #sunset-mode{
-  /* background-color: var(--cyGirlColor); */
   height: 2rem;
 	width: 2rem;
-  /* padding: .3rem; */
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   margin-left: 20%;
   margin-right: 50%;
@@ -207,10 +203,8 @@ h3{
 }
 
 #spartan-mode{
-  /* background-color: var(--cyGirlColor); */
   height: 2rem;
 	width: 2rem;
-  /* padding: .3rem; */
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   margin-left: 20%;
   margin-right: 50%;
@@ -219,10 +213,8 @@ h3{
 }
 
 #bee-mode{
-  /* background-color: var(--cyGirlColor); */
   height: 2rem;
 	width: 2rem;
-  /* padding: .3rem; */
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   margin-left: 20%;
   margin-right: 50%;
@@ -231,10 +223,8 @@ h3{
 }
 
 #biohazard-mode{
-  /* background-color: var(--cyGirlColor); */
   height: 2rem;
 	width: 2rem;
-  /* padding: .3rem; */
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   margin-left: 20%;
   margin-right: 50%;
@@ -243,10 +233,8 @@ h3{
 }
 
 #vintage-mode{
-  /* background-color: var(--cyGirlColor); */
   height: 2rem;
 	width: 2rem;
-  /* padding: .3rem; */
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   margin-left: 20%;
   margin-right: 50%;
@@ -255,10 +243,8 @@ h3{
 }
 
 #anarchy-mode{
-  /* background-color: var(--cyGirlColor); */
   height: 2rem;
 	width: 2rem;
-  /* padding: .3rem; */
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   margin-left: 20%;
   margin-right: 50%;
@@ -267,10 +253,8 @@ h3{
 }
 
 #mask-mode{
-  /* background-color: var(--cyGirlColor); */
   height: 2rem;
 	width: 2rem;
-  /* padding: .3rem; */
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   margin-left: 20%;
   margin-right: 50%;
@@ -279,10 +263,8 @@ h3{
 }
 
 #snake-mode{
-  /* background-color: var(--cyGirlColor); */
   height: 2rem;
 	width: 2rem;
-  /* padding: .3rem; */
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   margin-left: 20%;
   margin-right: 50%;
@@ -292,7 +274,6 @@ h3{
 
 #demo{
   color: var(--fontColor);
-  /* background-color: var(--blockColor); */
   margin-bottom: 70%;
 }
 /* END OF THEME TABLE  */
@@ -300,9 +281,9 @@ h3{
 /* SURVEY  */
 
 .survey{
-  padding: 10px;
-  margin: 20px;
-  border: 2px groove var(--fontColor);
+  padding: 0.625rem;
+  margin: 1.25rem;
+  border: 1.3rem groove var(--fontColor);
 }
 .surveyTitle{
   text-align: center;
@@ -310,63 +291,59 @@ h3{
 }
 
 form{
-  /* padding: 3px; */
-  /* text-align: center; */
-  /* box-sizing: border-box; */
-  /* display: inline; */
-  /* float: center; */
   margin-left: 35%;
   color: var(--fontColor);
-  /* margin-right: 50%; */
 }
 
 #inputs{
-  /* padding: 3px; */
-  /* text-align: center; */
-  /* box-shadow: 0.4rem 0.4rem 0.2rem var(--shadowColor); */
   color: var(--fontColor);
 }
 
 form select{
   width: 18%;
-  padding: 3px;
+  padding: 0.188rem;
   color: var(--fontColor);
-  /* text-align: center; */
-  /* box-shadow: 0.4rem 0.4rem 0.2rem var(--shadowColor); */
 }
 
 #radio{
-  /* display: inline; */
-  /* text-align: left; */
-  /* margin: 2px; */
-  /* overflow: hidden; */
-  /* padding: 2px; */
-  /* float: left; */
   color: var(--fontColor);
 }
 
 #gender{
-  /* float: left; */
   color: var(--fontColor);
 }
 
 textarea{
   margin-left: auto;
   margin-right: auto;
-  /* float: center; */
   color: var(--fontColor);
 }
 
 .surveySubmit{
   background-color: var(--blockColor);
-  border: none;
   color: var(--fontColor);
-  padding: 10px 25px;
+  padding: 0.625rem 1.6rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 4px;
-  border-radius: 8px;
+  font-size: 1rem;
+  margin: 0.3rem 0.3rem;
+  border-radius: 0.5rem;
 }
 /* END OF SURVEY  */
+
+/* FOOTER  */
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background-color: var(--blockColor);
+  color: var(--fontColor);
+  text-align: center;
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+  font-family: var(--mainFont);
+  text-shadow: var(--textShadow)
+}
+/* END OF FOOTER  */
